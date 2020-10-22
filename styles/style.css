@@ -1,0 +1,53 @@
+body {
+  background-color: #f5f5f5;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#logoImg {
+  margin: 0;
+  padding: 0;
+  width: 10vh;
+  height: 10vh;
+  border: solid black;
+  border-radius: 10vh;
+  position: relative;
+}
+.carousel-item {
+  height: 70vh;
+  background: no-repeat top scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.carousel-item > img {
+  margin: auto;
+  width: auto;
+  height: 100%;
+}
+
+#carouselExampleControls {
+    /*Slider background*/
+  background-color: grey;
+  background-image: url("/images/Slider_background2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer {
+    text-align: center;
+    color:white;
+    min-height: 20px;
+}
+span>i{
+    padding-right: 10px;
+}
+@media (max-width: 576px) {
+  .container-xl {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .carousel-item {
+    height: 50vh;
+  }
+  .carousel-item > img {
+    width: 100%;
+  }
+}
