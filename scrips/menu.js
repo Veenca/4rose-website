@@ -16,14 +16,13 @@ categoryArray.on("click", function () {
 });
 let specificName=categoryArray.siblings().children().children();
 let specificCategory = $(".specificList")
-specificCategory.addClass('hide')
+//specificCategory.addClass('hide')
 //console.log(specificName(''))
 //console.log(categoryArray.siblings().children().children())
-//specificCategory.children().addClass('hide')
+specificCategory.children().addClass('hide')
 //specificCategory.children().hide();
-/* specificCategory.parent().children().on("click", function () {
-    $(this).toggleClass('hide')
-    console.log("ok")
 
-
-}); */
+specificCategory.parent().children().on("click", function () {
+ console.log($(this).siblings().children())
+ $(this).siblings().children().toggleClass('hide');
+}); 
