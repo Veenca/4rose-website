@@ -28,39 +28,43 @@
   Bibite=json.Bibite
   console.log(PizzeRosse)
 });
-$(PizzeRosse).ready(function(){
-  let specificCategory = $(".specificList")
-//-----------Append Array-------------------\\
-specificCategory.map(function(){
-  let ListToAppend=($(this).parent().children("p").text());
-  ListToAppend = ListToAppend.replace(/\s/g, '');
-  console.log(ListToAppend);
- // ListToAppend="PizzeRosse"
-  $(this).append(appendArray(eval(ListToAppend)))
- 
-});
-
-console.log(appendArray(PizzeRosse))
-
-//-----------------VISUALLY TOGGLE MENU--------------------------\\
-let categoryArray = $(".mainCategory");
-categoryArray.siblings().hide()
-categoryArray.on("click", function () {
-$(this).siblings().fadeToggle(300);
-});
-let i=0;
-let specificName=categoryArray.siblings().children().children();
-
-specificCategory.children().hide();
-specificCategory.parent().children().on("click", function () {
- //console.log($(this).siblings().children())
-
- $(this).siblings().children().toggle(300);
-}); 
-
-},100);
 //----------Document Ready--------------\\
-
+$(document).ready(function(){
+  setTimeout(
+    function() 
+    {let specificCategory = $(".specificList")
+    //-----------Append Array-------------------\\
+    specificCategory.map(function(){
+      let ListToAppend=($(this).parent().children("p").text());
+      ListToAppend = ListToAppend.replace(/\s/g, '');
+      console.log(ListToAppend);
+     // ListToAppend="PizzeRosse"
+      $(this).append(appendArray(eval(ListToAppend)))
+     
+    });
+    
+    console.log(appendArray(PizzeRosse))
+    
+    //-----------------VISUALLY TOGGLE MENU--------------------------\\
+    let categoryArray = $(".mainCategory");
+    categoryArray.siblings().hide()
+    categoryArray.on("click", function () {
+    $(this).siblings().fadeToggle(300);
+    });
+    let i=0;
+    let specificName=categoryArray.siblings().children().children();
+    
+    specificCategory.children().hide();
+    specificCategory.parent().children().on("click", function () {
+     //console.log($(this).siblings().children())
+    
+     $(this).siblings().children().toggle(300);
+    }); 
+    
+      //do something special
+    }, 50);
+  
+},100);
 //----Function append array------------\\
 
 function appendArray(array){
