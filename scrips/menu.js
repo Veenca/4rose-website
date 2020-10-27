@@ -30,6 +30,8 @@
 });
 //----------Document Ready--------------\\
 $(document).ready(function(){
+  let categoryArray = $(".mainCategory");
+  categoryArray.siblings().hide()
   setTimeout(
     function() 
     {let specificCategory = $(".specificList")
@@ -46,8 +48,8 @@ $(document).ready(function(){
     console.log(appendArray(PizzeRosse))
     
     //-----------------VISUALLY TOGGLE MENU--------------------------\\
-    let categoryArray = $(".mainCategory");
-    categoryArray.siblings().hide()
+   
+  
     categoryArray.on("click", function () {
     $(this).siblings().fadeToggle(300);
     });
@@ -62,7 +64,7 @@ $(document).ready(function(){
     }); 
     
       //do something special
-    }, 500);
+    },300);
   
 },100);
 //----Function append array------------\\
