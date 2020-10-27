@@ -26,7 +26,9 @@
   Birreallaspina=json.Birreallaspina
   Vini=json.Vini;
   Bibite=json.Bibite
+  console.log(PizzeRosse)
 });
+
 //----------Document Ready--------------\\
 $(document).ready(function(){
   let specificCategory = $(".specificList")
