@@ -62,7 +62,7 @@ $(document).ready(function(){
     }); 
     
       //do something special
-    }, 50);
+    }, 500);
   
 },100);
 //----Function append array------------\\
