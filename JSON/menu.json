@@ -1,0 +1,98 @@
+{
+  "PizzeRosse": [
+    { "nome": "Margherita", "ingredienti":["fiordilatte ","pomodoro "] },
+    { "nome": "Napoletana", "ingredienti":["fiordilatte ","pomodoro ","acciughe "] },
+    { "nome": "Prosciutto Cotto", "ingredienti":["fiordilatte ","pomodoro ","prosciutto cotto "] },
+    { "nome": "Würstel", "ingredienti":["fiordilatte ","pomodoro ","würstel "] },
+    { "nome": "Funghi", "ingredienti":["fiordilatte ","pomodoro ","funghi "] },
+    { "nome": "Cipolla", "ingredienti":["fiordilatte ","pomodoro ","cipolla "] },
+    { "nome": "Salame", "ingredienti":["fiordilatte ","pomodoro ","salame "] },
+    { "nome": "Tonno", "ingredienti":["fiordilatte ","pomodoro ","tonno "] },
+    { "nome": "Diavola", "ingredienti":["fiordilatte ","pomodoro ","salame piaccante "] },
+    { "nome": "D'Aprile", "ingredienti":["fiordilatte ","pomodoro ","prosciutto cotto ","rucola ","grana "] },
+    { "nome": "N'Drangheta", "ingredienti":["fiordilatte ","pomodoro ","n'duja "] },
+    { "nome": "Stracciatella", "ingredienti":["fiordilatte ","pomodoro ","stracciatella "] },
+    { "nome": "Prosciutto e Funghi", "ingredienti":["fiordilatte ","pomodoro ","prosciutto ","funghi"] },
+    { "nome": "Bresaola", "ingredienti":["fiordilatte ","pomodoro ","bresaola ","rucola ","grana ","limone "] },
+    { "nome": "Tonno e Cipolla", "ingredienti":["fiordilatte ","pomodoro ","tonno ","cipolla "] },
+    { "nome": "Prosciutto Crudo e Philadelphia", "ingredienti":["fiordilatte ","pomodoro ","prosciutto crudo ","philadelphia "] },
+    { "nome": "Argentina", "ingredienti":["fiordilatte ","pomodoro ","zucchine ","melanzane ","prosciutto cotto ","grana "] },
+    { "nome": "Genco N°1", "ingredienti":["fiordilatte ","pomodoro ","tonno ","acciughe ","olive ","n'duja ","cipolla ","zampina "] },
+    { "nome": "Genco N°2", "ingredienti":["fiordilatte ","pomodoro ","guanciale ","zucchine grigliate","pecorino "] },
+    { "nome": "San Daniele", "ingredienti":["fiordilatte ","pomodoro ","prosciutto crudo "] },
+    { "nome": "Capricciosa", "ingredienti":["fiordilatte ","pomodoro ","prosciutto cotto ","funghi champignon","carciofi "] },
+    { "nome": "Porcini & Guanciale", "ingredienti":["fiordilatte ","pomodoro ","guanciale ","grana "] },
+    { "nome": "4 Stagioni", "ingredienti":["fiordilatte ","pomodoro ","funghi champignon","prosciutto ","würstel ","carciofi "] },
+    { "nome": "Fumè", "ingredienti":["fiordilatte ","pomodoro ","speck ","provola affumicata "] },
+    { "nome": "4 Rose", "ingredienti":["fiordilatte ","pomodoro ","prosciutto cotto ","funghi champigon","fontina"] },
+    { "nome": "Ortolana", "ingredienti":["fiordilatte ","pomodoro ","verdure miste "] },
+    { "nome": "PataPizza", "ingredienti":["fiordilatte ","pomodoro ","patate fritte "] },
+    { "nome": "PataWürstel", "ingredienti":["fiordilatte ","pomodoro ","patate fritte ","würstel "] },
+    { "nome": "Zampina ", "ingredienti":["fiordilatte ","pomodoro ","zampina ","rucola ","grana "] },
+    { "nome": "4 formaggi", "ingredienti":["fiordilatte ","pomodoro ","formaggi misti "] },
+    { "nome": "Cortigiana", "ingredienti":["fiordilatte ","pomodoro ","noci ","gorgonzola "] },
+    { "nome": "Terra", "ingredienti":["fiordilatte ","pomodoro ","pancetta ","grana "] },
+    { "nome": "Principessa", "ingredienti":["fiordilatte ","pomodoro ","prosciutto crudo ","panna"]},
+    { "nome": "Bufala & Funghi", "ingredienti":["fiordilatte di bufala","pomodoro ","funghi champignon"] },
+    { "nome": "Bufala", "ingredienti":["fiordilatte di bufala","pomodoro ","basilico "]},
+    { "nome": "Regina", "ingredienti":["fiordilatte ","pomodoro ","stracciatella ","radicchio ","prosciutto cotto "] },
+    { "nome": "Milito", "ingredienti":["fiordilatte ","pomodoro ","salame piaccante ","gorgonzola ","acciughe "] },
+    { "nome": "Prosciutto Crudo & Stracciatella", "ingredienti":["fiordilatte ","pomodoro ","prosciutto crudo ","stracciatella "] },
+    { "nome": "Funghi porcini", "ingredienti":["fiordilatte ","pomodoro ","funghi porcini "] },
+    { "nome": "Barese", "ingredienti":["fiordilatte ","pomodoro ","ricotta forte "] },
+    { "nome": "Parmigiana", "ingredienti":["fiordilatte ","pomodoro ","scamorza affumicata ","melanzane ","pan grattato"]},
+    { "nome": "Francese", "ingredienti":["fiordilatte ","pomodoro ","speck ","brie'"] },
+    { "nome": "U'Ross", "ingredienti":["fiordilatte ","pomodoro ","tonno ","cipolla ","peperoni ","salame piaccante "] }
+  ],
+  "PizzeBianche": [
+    { "nome": "Napulè", "ingredienti":["fiordilatte ","friarielli ","scamorza affumicata ","zampina ","fili di peperoncino"] },
+    { "nome": "Rosso sapore", "ingredienti":["fiordilatte ","porcini ","capocollo ","pomodorino secco ","pecorino ","pepe"] }
+  ],
+  "Ciccio": [
+    { "nome": "Ciccio alla Mario", "ingredienti":["fiordilatte ","pomodori a pezzi ","prosciutto crudo ","rucola ","grana "] },
+    { "nome": "Brando", "ingredienti":["pomodori a pezzi ", "bresaola ","philadelphia ","basilico "] }
+  ],
+  "Stuzzicheria":[
+    { "nome": "Bruschette classiche", "ingredienti":[""] },
+    { "nome": "Brushette fantasia", "ingredienti":["vari gusti"] }
+  ],
+  "Primi": [
+    { "nome": "Trofiette", "ingredienti":["zucchine e gamberi al sapore di menta"] },
+    { "nome": "Paccheri", "ingredienti":["zampina ","porcini ","pachino ","scaglie di grana"] }
+  ],
+  "Igrandiclassici": [
+    { "nome": "Spaghetti Aglio Olio Peperoncino", "ingredienti":[] },
+    { "nome": "Spaghetti Carbonara", "ingredienti":[] }
+  ],
+  "Secondi": [
+    { "nome": "Tagliata di Manzo", "ingredienti":["manzo ","rucola ","pachino ","grana "] },
+    { "nome": "Tagliata di Manzo", "ingredienti":["funghi porcini ", "radicchio ","grana "] }
+  ],
+  "Insalate":[
+    { "nome": "Santa", "ingredienti":["insalata ","pachino ","tonno ","cipolla ","rucola "] },
+    { "nome": "Caprese", "ingredienti":["insalata ","pachino ","mozzarella ","basilico "] }
+  ],
+
+  "Pucce":[
+    { "nome": "Ghiotta", "ingredienti":["mortadella ","gorgonzola ","noci ","pachino ","rucola "] },
+    { "nome": "Classica", "ingredienti":["prosciutto crudo ","mozzarella ","pachino ","rucola "] }
+  ],
+  "Birre": [
+    { "nome": "Heineken 33cl", "ingredienti":[] },
+    { "nome": "Heineken 66cl", "ingredienti":[] }
+  ],
+  "Birreallaspina": [
+    { "nome": "Poretti 4 luppoli piccola 20cl", "ingredienti":[] },
+    { "nome": "Poretti 4 luppoli piccola 40cl", "ingredienti":[] }
+  ],
+  "Vini": [
+    { "nome": "Vino locale 1000ml", "ingredienti":[] },
+    { "nome": "Calice Vino locale", "ingredienti":[] }
+  ],
+  "Bibite":[
+    { "nome": "Acqua 100cl", "ingredienti":[] },
+    { "nome": "Acqua 50cl","ingredienti":[] }
+  ]
+
+}
+

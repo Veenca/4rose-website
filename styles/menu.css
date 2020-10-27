@@ -12,7 +12,7 @@
 #menuList>li>p{
     color: rgba(138, 5, 5, 0.733);
 }
-#menuList>li:hover{
+.list-group-item-action:hover{
     cursor: pointer;
 }
 #menuList>li>ul>li{
