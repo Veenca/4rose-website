@@ -28,9 +28,7 @@
   Bibite=json.Bibite
   console.log(PizzeRosse)
 });
-
-//----------Document Ready--------------\\
-$(document).ready(function(){
+$(PizzeRosse).ready(function(){
   let specificCategory = $(".specificList")
 //-----------Append Array-------------------\\
 specificCategory.map(function(){
@@ -61,6 +59,8 @@ specificCategory.parent().children().on("click", function () {
 }); 
 
 },100);
+//----------Document Ready--------------\\
+
 //----Function append array------------\\
 
 function appendArray(array){
