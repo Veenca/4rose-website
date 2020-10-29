@@ -160,6 +160,16 @@
     { "nome": "Sprite 33cl","ingredienti":[] },
     { "nome": "Coca Cola in vetro 33cl","ingredienti":[] },
     { "nome": "Chino 33cl","ingredienti":[] }
+  ],
+  "Impasti":[
+    { "nome": "Classico", "ingredienti":[] },
+    { "nome": "Cereali","ingredienti":[] },
+    { "nome": "Integrale tritordeum","ingredienti":[] },
+    { "nome": "Curcuma","ingredienti":[] },
+    { "nome": "Senza Lievito","ingredienti":[] },
+    { "nome": "Senza Glutine","ingredienti":[] },
+    { "nome": "Stesa Napoletana","ingredienti":[] },
+    { "nome": "Ciabatta Romana","ingredienti":[] }
   ]
 
 }

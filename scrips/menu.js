@@ -12,6 +12,7 @@ let Birre = [];
 let Birreallaspina = [];
 let Vini = [];
 let Bibite = [];
+let Impasti=[];
 $.getJSON("../JSON/menu.json", function (json) {
   PizzeRosse = json.PizzeRosse
   PizzeBianche = json.PizzeBianche;
@@ -26,6 +27,7 @@ $.getJSON("../JSON/menu.json", function (json) {
   Birreallaspina = json.Birreallaspina
   Vini = json.Vini;
   Bibite = json.Bibite
+  Impasti=json.Impasti;
  
 });
 
