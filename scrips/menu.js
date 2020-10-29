@@ -28,12 +28,11 @@ $.getJSON("../JSON/menu.json", function (json) {
   Bibite = json.Bibite
  
 });
-//----------Document Ready--------------\\
+
 let categoryArray = $(".mainCategory");
 categoryArray.siblings().hide()
 let specificCategory = $(".specificList")
 $(document).ready(function () {
-
   setTimeout(
     function () {
       //-----------Append Array-------------------\\
@@ -51,10 +50,12 @@ $(document).ready(function () {
         $(this).siblings().children().toggle(300);
       });
       //do something special
-      console.log("ok")
+      
     }, 325);
 
 });
+//--Changing footer--\\
+
 //----Functions------------\\
 
 function appendArray(array) {

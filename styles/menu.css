@@ -1,7 +1,7 @@
 #menuList{
    /* border: solid rgba(255, 0, 0, 0.609);*/
     border-radius: 20px;
-    
+   
 }
 #menu{
  background: white;
@@ -21,6 +21,15 @@
     list-style-type:none;
     border-left:solid rgb(168, 168, 168);
 }
+.push{
+    height: 25px;  
+  
+}
+#menuContent{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
 .specificList{
     color: rgb(53, 51, 51);
 }
@@ -28,8 +37,11 @@
     display: none;
 }
 @media (max-width: 576px) {
-   #menu{
+   #menu,#menuContent{
        border:none;
        border-radius: 0;
    }
+   .push{
+  background-color: white;
+}
   }

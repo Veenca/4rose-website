@@ -29,7 +29,7 @@
     { "nome": "PataPizza", "ingredienti":["fiordilatte ","pomodoro ","patate fritte "] },
     { "nome": "PataWürstel", "ingredienti":["fiordilatte ","pomodoro ","patate fritte ","würstel "] },
     { "nome": "Zampina ", "ingredienti":["fiordilatte ","pomodoro ","zampina ","rucola ","grana "] },
-    { "nome": "4 formaggi", "ingredienti":["fiordilatte ","pomodoro ","formaggi misti "] },
+    { "nome": "4 Formaggi", "ingredienti":["fiordilatte ","pomodoro ","formaggi misti "] },
     { "nome": "Cortigiana", "ingredienti":["fiordilatte ","pomodoro ","noci ","gorgonzola "] },
     { "nome": "Terra", "ingredienti":["fiordilatte ","pomodoro ","pancetta ","grana "] },
     { "nome": "Principessa", "ingredienti":["fiordilatte ","pomodoro ","prosciutto crudo ","panna"]},
@@ -78,46 +78,88 @@
     { "nome": "Piatto Stuzzicherie", "ingredienti":["porzione per 2 persone"] },
     { "nome": "Tagliere Salumi & Formaggi", "ingredienti":[""] },
     { "nome": "Mortadellal Grigliata", "ingredienti":["nocelline e glassa balsamica"] },
-    { "nome": "Involtini speck e mozzarella", "ingredienti":[""] },
-    { "nome": "Bruschette classiche", "ingredienti":[""] }
+    { "nome": "Involtini Speck e Mozzarella", "ingredienti":[""] },
+    { "nome": "Frittelle con salsa", "ingredienti":[""] }
 
   ],
   "Primi": [
     { "nome": "Trofiette", "ingredienti":["zucchine e gamberi al sapore di menta"] },
-    { "nome": "Paccheri", "ingredienti":["zampina ","porcini ","pachino ","scaglie di grana"] }
+    { "nome": "Paccheri", "ingredienti":["zampina ","porcini ","pachino ","scaglie di grana"] },
+    { "nome": "Risotto", "ingredienti":["funghi porcini e gamberetti mantecato al limone x2 "] }
   ],
   "Igrandiclassici": [
     { "nome": "Spaghetti Aglio Olio Peperoncino", "ingredienti":[] },
-    { "nome": "Spaghetti Carbonara", "ingredienti":[] }
+    { "nome": "Spaghetti Carbonara", "ingredienti":[] },
+    { "nome": "Spaghetti all' Arrabbiata", "ingredienti":[] }
   ],
   "Secondi": [
     { "nome": "Tagliata di Manzo", "ingredienti":["manzo ","rucola ","pachino ","grana "] },
-    { "nome": "Tagliata di Manzo", "ingredienti":["funghi porcini ", "radicchio ","grana "] }
+    { "nome": "Tagliata di Manzo", "ingredienti":["manzo ","funghi porcini ", "radicchio ","grana "] },
+    { "nome": "Tagliata di Pollo", "ingredienti":["pollo ","rucola ", "pachino ","grana "] },
+    { "nome": "Tagliata di Pollo", "ingredienti":["pollo ","funghi champignon crudi ","salsa greca "] },
+    { "nome": "1-Hamburgher", "ingredienti":["patitine ","salse "] },
+    { "nome": "2-Hamburgher", "ingredienti":["pachino ","rucola ","grana "] },
+    { "nome": "3-Hamburgher", "ingredienti":["pachino ","verdure grigliate"] }
   ],
   "Insalate":[
     { "nome": "Santa", "ingredienti":["insalata ","pachino ","tonno ","cipolla ","rucola "] },
-    { "nome": "Caprese", "ingredienti":["insalata ","pachino ","mozzarella ","basilico "] }
+    { "nome": "Caprese", "ingredienti":["insalata ","pachino ","mozzarella ","basilico "] },
+    { "nome": "Marina", "ingredienti":["insalata ","gamberetti ","salsa rosa ","grana "] },
+    { "nome": "Girasole", "ingredienti":["insalata ","pachino ","mais ","fesa di tacchino ","rucola "] },
+    { "nome": "Light", "ingredienti":["insalata ","zucchine ","carote ","philadelphia ","pomodorini "] },
+    { "nome": "Posillipo", "ingredienti":["insalata ","mozzarella di bufala ","pachino ","origano "] },
+    { "nome": "Ibiza", "ingredienti":["insalata ","pachino ","mais ","carote ","gamberetti ","rucola ","grana "] },
+    { "nome": "Zante", "ingredienti":["insalata ","polpa di granchio ","rucola ","mozzarella "] },
+    { "nome": "Americana", "ingredienti":["insalata ","pollo ","pachino ","grana "] },
+    { "nome": "King", "ingredienti":["insalata ","pollo ","pachino ","melanzane grigliate ","carote ","rucola ","grana "] }
   ],
 
   "Pucce":[
     { "nome": "Ghiotta", "ingredienti":["mortadella ","gorgonzola ","noci ","pachino ","rucola "] },
-    { "nome": "Classica", "ingredienti":["prosciutto crudo ","mozzarella ","pachino ","rucola "] }
+    { "nome": "Classica", "ingredienti":["prosciutto crudo ","mozzarella ","pachino ","rucola "] },
+    { "nome": "Kaori", "ingredienti":["burratina ","prosciutto cotto ","basilico "] },
+    { "nome": "Martina", "ingredienti":["prosciutto crudo ","mozzarella ","pachino ","rucola "] },
+    { "nome": "Bella Napoli", "ingredienti":["prosciutto crudo ","mozzarella di bufala ","pachino ","basilico "] },
+    { "nome": "Svedese", "ingredienti":["salmone affumicato ","zucchine grigliate","stracciatella ","buccia di limone "] }
   ],
   "Birre": [
     { "nome": "Heineken 33cl", "ingredienti":[] },
-    { "nome": "Heineken 66cl", "ingredienti":[] }
+    { "nome": "Heineken 66cl", "ingredienti":[] },
+    { "nome": "Poretti N°4 33cl", "ingredienti":[] },
+    { "nome": "Poretti N°4 66cl", "ingredienti":[] },
+    { "nome": "Poretti N°5 doppio malto 33cl", "ingredienti":[] },
+    { "nome": "Menabrea 33cl", "ingredienti":[] },
+    { "nome": "Menabrea 66cl", "ingredienti":[] },
+    { "nome": "Menabrea Plis Premium 75cl", "ingredienti":[] },
+    { "nome": "Menabrea Weiss Premium 75cl", "ingredienti":[] },
+    { "nome": "Menabrea Bock Doppio Malto Rossa 75cl", "ingredienti":[] },
+    { "nome": "Corona 33 cl", "ingredienti":[] },
+    { "nome": "Ichnusa 50cl", "ingredienti":[] },
+    { "nome": "Peroni Gran Riserva 50cl", "ingredienti":["varieta: Rossa, Doppio Malto, Puro Malto"] },
+    { "nome": "Paulaner 50cl", "ingredienti":[] }
+  
   ],
   "Birreallaspina": [
     { "nome": "Poretti 4 luppoli piccola 20cl", "ingredienti":[] },
-    { "nome": "Poretti 4 luppoli piccola 40cl", "ingredienti":[] }
+    { "nome": "Poretti 4 luppoli media 40cl", "ingredienti":[] },
+    { "nome": "Poretti 4 luppoli grande 40cl", "ingredienti":[] }
   ],
   "Vini": [
     { "nome": "Vino locale 1000ml", "ingredienti":[] },
-    { "nome": "Calice Vino locale", "ingredienti":[] }
+    { "nome": "Calice Vino locale", "ingredienti":[] },
+    { "nome": "Primitivo 750 ml", "ingredienti":[] },
+    { "nome": "Negroamaro 750 ml", "ingredienti":[] },
+    { "nome": "Salice Salentino 750 ml", "ingredienti":[] }
   ],
   "Bibite":[
     { "nome": "Acqua 100cl", "ingredienti":[] },
-    { "nome": "Acqua 50cl","ingredienti":[] }
+    { "nome": "Acqua 50cl","ingredienti":[] },
+    { "nome": "Aranciata Fanta 33cl","ingredienti":[] },
+    { "nome": "Coca Cola 33cl","ingredienti":[] },
+    { "nome": "Coca Cola 100cl","ingredienti":[] },
+    { "nome": "Sprite 33cl","ingredienti":[] },
+    { "nome": "Coca Cola in vetro 33cl","ingredienti":[] },
+    { "nome": "Chino 33cl","ingredienti":[] }
   ]
 
 }
