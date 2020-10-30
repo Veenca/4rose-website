@@ -53,7 +53,7 @@ $(document).ready(function () {
       });
       //do something special
       
-    }, 325);
+    }, 400);
 
 });
 //--Changing footer--\\

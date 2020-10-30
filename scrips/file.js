@@ -13,12 +13,14 @@ ChangeFooter(x);
 function ChangeFooter(x) {
     if (x.matches) { // If media query matches
         footer.css("width",window.innerWidth);
+      $('#footToAdj').css("bottom","-50px");
         if(footer.hasClass("d-flex")){
             footer.removeClass("d-flex")
             footer.removeClass("justify-content-around")
         }
     } else {
         footer.css("width",container.width()*1);
+        $('#footToAdj').css("bottom",0);
         if(!footer.hasClass("d-flex")){
             footer.addClass("d-flex")
             footer.addClass("justify-content-around")
@@ -30,4 +32,3 @@ function ChangeFooter(x) {
     ChangeFooter(x);
    
 });
-
