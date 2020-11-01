@@ -36,6 +36,14 @@
 .hide{
     display: none;
 }
+
+#cart-div>p>a:first-child{
+position: relative;
+top: 10px;
+}
+.hidden{
+    visibility: hidden;
+}
 @media (max-width: 576px) {
    #menu,#menuContent{
        border:none;
