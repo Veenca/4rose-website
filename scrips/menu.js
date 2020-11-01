@@ -56,8 +56,14 @@ $(document).ready(function () {
     }, 400);
 
 });
-//--Changing footer--\\
-
+//-----Cart Function-----\\
+cartBtn = $('.useCart');
+console.log(cartBtn.siblings());
+cartBtn.on("click",function(){
+  $('#goToCart').toggleClass('hide');
+  $(this).toggle();
+  $(this).siblings('p:first').toggle();
+});
 //----Functions------------\\
 
 function appendArray(array) {
