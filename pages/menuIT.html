@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <div class="container-xl" id="menuContent" >
+  <div class="container-xl" id="menuContent">
     <div>
       <nav class="navbar navbar-expand-lg py-3 navbar-dark bg-dark  sticky-top ">
         <a class="navbar-brand" href="#"><img id="logoImg" src="/images/logo.png" alt="" class="img-fluid"></a>
@@ -21,7 +21,7 @@
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-  
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
@@ -31,28 +31,28 @@
               <a class="nav-link" href="/pages/About.html">Chi siamo</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link " href="/pages/menuIT.html" >
+              <a class="nav-link " href="/pages/menuIT.html">
                 Menu<span class="sr-only">(current)</span>
               </a>
-              </li>
+            </li>
           </ul>
-        
+
         </div>
       </nav>
     </div>
     <div id="menu" class="container-xl list-group-flush">
       <div id="cart-div" class="list-group-item list-group-flush d-flex justify-content-between">
-      
+
         <p class="text-center h2"> Menu</p>
         <div>
           <p id="" class="h6 useCart"><a href="#">Abilita carrello</a></p>
           <p id="" class="h6 hide useCart"><a href="#" style="color: rgb(53, 51, 51);">Disabilita carrello</a></p>
-          <p id="goToCart"class="h6 hide"><a href="#carrello">Vai al carrello</a></p>
+          <p id="goToCart" class="h6 hide"><a href="#carrello">Vai al carrello</a></p>
         </div>
-      
-        
+
+
       </div>
-      
+
 
       <ul id="menuList" class="list-group  list-group-flush ">
 
@@ -125,27 +125,45 @@
             </li>
           </ul>
         </li>
-        <li class="list-group-item ">
+        <li class="list-group-item " id="liImpasti">
           <p class="h4 mainCategory list-group-item-action">Impasti</p>
           <ul class="specificList"></ul>
           <span style="color:rgb(53, 51, 51)" class="h6">Tutti gli impasti sono senza latte</span>
         </li>
       </ul>
+
     </div>
     <div class="push"></div>
+
+
+
   </div>
-  <div id="carrello" class="container-xl">
+  <div id="carrello" class="bg-light container-xl">
+    <div class="" style="height: 50px; background-color: #0062cb;">
+      <p class="navbar-brand" href="#">Carrello</p>
+      <p class="navbar-brand" style="float:right; color:rgb(53, 51, 51);"><span id="cartCounter"
+          style="border: solid; border-radius: 5px; background-color: white; padding-left: 4px;padding-right: 4px;">
+          4</span> </p>
+    </div>
+    <div id="cart-content" class="overflow-auto"style="">
     
+      <ul id="cartList" class="h6">
+
+      </ul>
+    </div>
   </div>
-<div class="container-xl">
- 
-  <footer class="bg-dark d-flex justify-content-around" id="footToAdj">
-    <div id="menuPush" class="bg-dark" style="height: 10px;"></div>
-    <span ><i class="fas fa-phone-alt"></i>CHIAMACI <a href="tel:080 493 1952">+39 080 493 1952</a> <br> <a style="color: #4FCE5D;" href="https://api.whatsapp.com/send?phone=393803240373" >Scrivici su Whatsapp</a> </span> <br>
- 
-  <span><a href="https://g.page/quattrorosepizzeria?share" ><i class="fas fa-map-marker-alt"></i> Via Giuseppe Pugliese, 28, 70017 Putignano BA </a></span>
-  </footer>
-</div>
+  <div class="container-xl">
+
+    <footer class="bg-dark d-flex justify-content-around" id="footToAdj">
+      <div id="menuPush" class="bg-dark" style="height: 10px;"></div>
+      <span><i class="fas fa-phone-alt"></i>CHIAMACI <a href="tel:080 493 1952">+39 080 493 1952</a> <br> <a
+          style="color: #4FCE5D;" href="https://api.whatsapp.com/send?phone=393803240373">Scrivici su Whatsapp</a>
+      </span> <br>
+
+      <span><a href="https://g.page/quattrorosepizzeria?share"><i class="fas fa-map-marker-alt"></i> Via Giuseppe
+          Pugliese, 28, 70017 Putignano BA </a></span>
+    </footer>
+  </div>
 
 
 
