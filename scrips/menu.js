@@ -30,6 +30,8 @@ $.getJSON("../JSON/menu.json", function (json) {
   Impasti=json.Impasti;
  
 });
+let cartItems=[];
+let delElmtBtn;
 $('#cartCounter').text(0);
 let countItemCart=0;
 let categoryArray = $(".mainCategory");
@@ -126,17 +128,38 @@ function appendArray(array,index) {
     }  
   return formattedArray;
 }
+function removeElmt(){
+  console.log("ciao")
+}
 function appendCart(name,quantity,dough,counter){
   if(dough){
-  $('#cartList').append("<li>"+name+" x "+quantity+" impasto: "+dough+"</li>")
+  //$('#cartList').append("<li>"+name+" x "+quantity+" impasto: "+dough+"</li>")
+  cartItems.push("<li alt="+cartItems.length+">"+name+" x "+quantity+" impasto: "+dough+" <button class=\"delCartElmt\"  onclick='delElmt("+cartItems.length+','+quantity+")'>rimuovi</button>"+"</li>");
 }else{
-  $('#cartList').append("<li>"+name+" x "+quantity+"</li>")
+ // $('#cartList').append("<li>"+name+" x "+quantity+"</li>")
+  cartItems.push("<li alt="+cartItems.length+">"+name+" x "+quantity+" <button class=\"delCartElmt\" onclick='delElmt("+cartItems.length+','+quantity+")'>rimuovi</button>"+"</li>");
 }
+$('#cartList').html(cartItems);
 
   $('#cartCounter').text(counter);
 }
 
+function delElmt(index,quantity){
+  countItemCart-=quantity;
 
+  cartItems.splice(index,1);
+  $('#cartList').html(cartItems);
+  $('#cartCounter').text(countItemCart);
+}
+let copyBtn=($('.copyPaste'))
+copyBtn.on("click",function(){
+  let str=$('#cartList').text()
+  for(let i=0;i<cartItems.length;i++){
+ str= str.replace("rimuovi","\n");
+}
+ 
+  console.log(str);
+})
 //CODICE BUTTATO
 
 /* if(cartActive && !x.matches){

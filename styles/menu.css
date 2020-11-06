@@ -72,6 +72,12 @@ input[type=number]{
 .custom-select{
  width: fit-content !important;
 }
+.copyPaste{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+}
 @media (max-width: 576px) {
    #menu,#menuContent{
        border:none;
