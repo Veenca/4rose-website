@@ -169,25 +169,14 @@ copyBtn.on("click",function(){
     var successful = document.execCommand('copy');
     var msg = successful ? 'successful' : 'unsuccessful';
     console.log('Copying text command was ' + msg);
+    alert("testo copiato negli appunti");
   } catch (err) {
     console.log('Oops, unable to copy');
   }
 
   document.body.removeChild(textArea);
 
- 
-  
-console.log(str);
-
 })
 //CODICE BUTTATO
 
-/* if(cartActive && !x.matches){
-  $('#footToAdj').css("bottom","-8vh");
-  
-}else if(!cartActive && !x.matches){
-  $('#footToAdj').css("bottom","0");
-}
-else{
-  $('#footToAdj').css("bottom","-8vh");
-} */
+
