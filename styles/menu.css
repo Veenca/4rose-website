@@ -77,6 +77,16 @@ input[type=number]{
     bottom: 0;
     right: 0;
     z-index: 2;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    color: #0062cb;
+    font-weight: bolder;
+    border:solid rgb(53, 51, 51) 2px;
+}
+.delCartElmt{
+    background-color: whitesmoke;
+   border-radius: 20px;
+   border:solid rgb(53, 51, 51) 1px;
 }
 @media (max-width: 576px) {
    #menu,#menuContent{

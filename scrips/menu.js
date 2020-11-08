@@ -133,10 +133,10 @@ function removeElmt(){
 }
 function appendCart(name,quantity,dough,counter){
   if(dough){
-  //$('#cartList').append("<li>"+name+" x "+quantity+" impasto: "+dough+"</li>")
+  
   cartItems.push("<li alt="+cartItems.length+">"+name+" x "+quantity+" impasto: "+dough+" <button class=\"delCartElmt\"  onclick='delElmt("+cartItems.length+','+quantity+")'>rimuovi</button>"+"</li>");
 }else{
- // $('#cartList').append("<li>"+name+" x "+quantity+"</li>")
+ 
   cartItems.push("<li alt="+cartItems.length+">"+name+" x "+quantity+" <button class=\"delCartElmt\" onclick='delElmt("+cartItems.length+','+quantity+")'>rimuovi</button>"+"</li>");
 }
 $('#cartList').html(cartItems);
@@ -158,7 +158,27 @@ copyBtn.on("click",function(){
  str= str.replace("rimuovi","\n");
 }
  
-  console.log(str);
+
+  var textArea = document.createElement("textarea");
+  textArea.style.display="inline";
+  textArea.value=str;
+  document.body.appendChild(textArea);
+  textArea.focus();
+  textArea.select();
+  try {
+    var successful = document.execCommand('copy');
+    var msg = successful ? 'successful' : 'unsuccessful';
+    console.log('Copying text command was ' + msg);
+  } catch (err) {
+    console.log('Oops, unable to copy');
+  }
+
+  document.body.removeChild(textArea);
+
+ 
+  
+console.log(str);
+
 })
 //CODICE BUTTATO
 
