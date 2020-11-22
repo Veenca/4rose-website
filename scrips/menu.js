@@ -143,11 +143,27 @@ $('#cartList').html(cartItems);
 
   $('#cartCounter').text(counter);
 }
+function refreshCart(array){
+  for(let i=0; i<array.length;i++){
+  let val
+  if(i<9){
+     val=(array[i].substring(array[i].lastIndexOf("alt")+4,array[i].lastIndexOf("alt")+5))
+  }else{
+    val=(array[i].substring(array[i].lastIndexOf("alt")+4,array[i].lastIndexOf("alt")+6))
+  }
 
+   
+  array[i]=array[i].replace("alt="+val+"","alt="+i);
+ array[i]=array[i].replace("onclick='delElmt("+val+'',"onclick='delElmt("+i+'');
+
+  }
+}
 function delElmt(index,quantity){
   countItemCart-=quantity;
-
+   
+  
   cartItems.splice(index,1);
+  refreshCart(cartItems);
   $('#cartList').html(cartItems);
   $('#cartCounter').text(countItemCart);
 }
