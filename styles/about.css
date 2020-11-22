@@ -1,0 +1,71 @@
+#aboutMain{
+    min-height: 10px;
+}
+#aboutMain>h1{
+    color: red;
+    text-shadow: 5px 6px 12px rgb(0, 0, 0);
+
+}
+
+#aboutMain>div>div>div>img{
+    height: 40vh;
+}
+#fornoImg{
+    width: auto;
+}
+.listed>ul{
+   list-style-type: none;
+   display: flex;
+   justify-content: space-around ;
+}
+#persons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 3vh;
+}
+#services{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#services>div>h4,#services>div>i {
+    padding-left: 120px;
+}
+#services>div>p{
+    padding: 1vh 0vh 3vh 3vh
+    
+}
+#persons>div{
+    padding: 2vh;
+}
+#persons>div>img{
+    border-radius: 20px;
+    width: 100%;
+    height: 35vh;
+   
+}
+
+@media (max-width: 576px) {
+   #cantalupo{
+       width: auto;
+   }
+   .listed{
+       min-height: 65vh;
+   }
+   #services>div>p{
+    padding: 1vh 4vh 0vh 4vh
+    
+}
+ #services,#persons{
+     display: block;
+ }
+ #persons>div>img{
+    width: 80%;
+    margin-left: 10%;
+     
+    border: solid black;
+ }
+ #persons>div>p{
+     padding: 4vh 0vh 3vh 3vh;
+ }
+  }
+  

@@ -1,9 +1,9 @@
-console.log(window.innerWidth);
+//console.log(window.innerWidth);
 
 let footer=$('footer');
 
 container=$('.container-xl')
-console.log(container.width())
+//console.log(container.width())
  const x = window.matchMedia("(max-width: 576px)")
 
 let diff=$(document).height()-window.innerHeight;
@@ -42,7 +42,7 @@ function ChangeFooter(x) {
   
   x.addEventListener("change", () => {
     ChangeFooter(x);
-   
+    $('#carouselExampleControls').css({height:$('#fornoImg').height()})
 });
 
 
