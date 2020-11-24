@@ -185,7 +185,8 @@ copyBtn.on("click",function(){
     var successful = document.execCommand('copy');
     var msg = successful ? 'successful' : 'unsuccessful';
     console.log('Copying text command was ' + msg);
-    alert("testo copiato negli appunti");
+    if(countItemCart!=0){
+    alert("testo copiato negli appunti")};
   } catch (err) {
     console.log('Oops, unable to copy');
   }
